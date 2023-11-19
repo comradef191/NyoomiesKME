@@ -1,5 +1,12 @@
 # NyoomiesKME
 A pico-powered expansion board for Klipper, with support for four motors running in SPI or UART, and ability to run higher currents than most mainboards.
+![NyoomiesR0](https://github.com/comradef191/NyoomiesKME/assets/62987296/98f0e227-be30-455b-b426-8ef2e2fe445d)
+
+
+
+Driver Configuration Jumpers:
+![image](https://github.com/comradef191/NyoomiesKME/assets/62987296/518c32e7-9fd3-44b1-bdca-6692459655cf)
+![image](https://github.com/comradef191/NyoomiesKME/assets/62987296/72f3a936-a4a6-465a-b728-547d606532a6)
 
 
 # Bill Of Materials
@@ -8,7 +15,6 @@ A pico-powered expansion board for Klipper, with support for four motors running
 |---------|----------|------------|-------|-------|
 |MKDS 1711725 Terminal|1|£0.79|Power Input|https://cpc.farnell.com/phoenix-contact/1711725/terminal-block-pcb-5-08mm-2way/dp/CN14710?ost=1711725|
 |1x4 JST-XH Connector|4|£0.44|Motor Connectors|https://cpc.farnell.com/jst-japan-solderless-terminals/b4b-xh-a-lf-sn/header-vertical-4way/dp/CN14255|
-|1x5 JST-XH Connector|1|£0.14|MCU UART|https://cpc.farnell.com/jst-japan-solderless-terminals/b5b-xh-a-lf-sn/header-vertical-5way/dp/CN14256|
 |1x20 2.54 Socket|2|£0.94|Pico-H Socket|https://cpc.farnell.com/multicomp/2212s-20sg-85/socket-pcb-1-row-20way/dp/CN14539|
 |1x8 2.54 Socket|8|£1.73|StepStick Socket|https://cpc.farnell.com/multicomp/2212s-08sg-85/socket-pcb-1-row-8way/dp/CN14534|
 |1x2 2.54 Socket|8|£0.76|Diag Pins Socket|https://cpc.farnell.com/multicomp/2212s-02sg-85/socket-pcb-1-row-2way/dp/CN14529|
