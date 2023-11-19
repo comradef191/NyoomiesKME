@@ -5,7 +5,6 @@ A pico-powered expansion board for Klipper, with support for four motors running
 
 
 Driver Configuration Jumpers:
-![image](https://github.com/comradef191/NyoomiesKME/assets/62987296/518c32e7-9fd3-44b1-bdca-6692459655cf)
 ![image](https://github.com/comradef191/NyoomiesKME/assets/62987296/72f3a936-a4a6-465a-b728-547d606532a6)
 
 
