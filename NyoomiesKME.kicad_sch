@@ -4447,7 +4447,7 @@
     (property "Value" "10A 32V" (at 266.7 18.415 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "CustomFootprints:Automotive Fuse-Holder, Mini-Blade" (at 266.7 13.97 0)
+    (property "Footprint" "CustomFootprints:Updated ATO Mini-Blade" (at 266.7 13.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 266.7 13.97 0)
