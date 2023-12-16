@@ -1327,9 +1327,6 @@
   (junction (at 106.68 83.82) (diameter 0) (color 0 0 0 0)
     (uuid a0d7b1db-36af-42b4-995b-fae978824db6)
   )
-  (junction (at 273.05 16.51) (diameter 0) (color 0 0 0 0)
-    (uuid a3d29dc8-af70-4b57-b83b-44895bd68f65)
-  )
   (junction (at 105.41 30.48) (diameter 0) (color 0 0 0 0)
     (uuid a7f42ca4-8157-474c-85cf-2de3f169d2c7)
   )
@@ -1607,10 +1604,6 @@
   (wire (pts (xy 106.68 86.36) (xy 114.3 86.36))
     (stroke (width 0) (type default))
     (uuid 6a676074-2d9a-43fe-86b6-77cb1ebfb9fb)
-  )
-  (wire (pts (xy 273.05 16.002) (xy 273.05 16.51))
-    (stroke (width 0) (type default))
-    (uuid 6e385d86-5394-41cd-bdb5-d0825dfcea4e)
   )
   (wire (pts (xy 101.6 33.02) (xy 104.14 30.48))
     (stroke (width 0) (type default))
@@ -4205,36 +4198,6 @@
       (project "NyoomiesKME"
         (path "/21133c32-3cd4-4050-babc-e77cc2031358"
           (reference "J12") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 275.59 16.002 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 809f2e8f-c2e9-4118-a578-bf77a5e8b0e7)
-    (property "Reference" "H5" (at 275.59 16.002 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 274.32 18.542 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "CustomFootprints:M3 Power" (at 275.59 16.002 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 275.59 16.002 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bffa2412-988f-48ce-9977-7b07298ba741))
-    (instances
-      (project "NyoomiesKME"
-        (path "/21133c32-3cd4-4050-babc-e77cc2031358"
-          (reference "H5") (unit 1)
-        )
-      )
-      (project "CursedPiBoard"
-        (path "/c2d513fa-62e4-43c5-abb2-c791bed6cfd7"
-          (reference "H2") (unit 1)
         )
       )
     )
