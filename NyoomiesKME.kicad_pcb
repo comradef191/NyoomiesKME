@@ -15028,7 +15028,7 @@
   (gr_text "GND\n\nSIG\n\n3V3" (at 175.8315 93.599 90) (layer "B.SilkS") (tstamp c4d77a5a-a2f2-4a93-aee5-e6da71063567)
     (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
   )
-  (gr_text "2.5mm traces SHOULD take 4.6A \non 1oz or 7.6A on 2oz\n...but please dont blow me up!" (at 152.146 42.554 270) (layer "B.SilkS") (tstamp cfb5a6fa-8b97-446b-b9b4-3e839f7e7789)
+  (gr_text "2.5mm traces SHOULD take 4.6A \non 1oz or 7.6A on 2oz\n...but please dont blow me up!" (at 152.146 43.307 270) (layer "B.SilkS") (tstamp cfb5a6fa-8b97-446b-b9b4-3e839f7e7789)
     (effects (font (size 0.65 0.65) (thickness 0.15)) (justify top mirror))
   )
   (gr_text "RPI PICO" (at 118.872 80.645) (layer "B.SilkS") (tstamp d71d4993-b630-4270-a515-2c0c5797e93f)
