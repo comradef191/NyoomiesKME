@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|112233607|36414607|68dc4e38-4eaa-401f-b7ce-1db1c9324787|62aa800e-9dea-49d1-bb85-3ee6c4a96f48",
+        "copper_edge_clearance|112233607|98840393|21e2b91b-a833-43de-a10f-6d3158792fe9|71ceb9d4-939f-4a77-92c5-83bbd3f0a0e1",
+        "copper_edge_clearance|210854393|36414607|04a7e695-738e-4050-b10f-56295ea90c75|5cba8217-a46b-4106-acc4-23a36ff07109",
+        "copper_edge_clearance|210854393|98840393|8f1a7ff1-bfaf-4d2c-b893-6c095361e607|d39fd44c-f511-49f0-b2d8-1cf84a93a499"
+      ],
       "meta": {
         "version": 2
       },
@@ -422,12 +427,12 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
-      "lib_symbol_issues": "warning",
+      "lib_symbol_issues": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -437,7 +442,7 @@
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
-      "pin_not_driven": "error",
+      "pin_not_driven": "ignore",
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
@@ -535,6 +540,22 @@
     [
       "21133c32-3cd4-4050-babc-e77cc2031358",
       ""
+    ],
+    [
+      "1d7a2495-23fc-4cb7-a0c2-2cbaed86dcc8",
+      "DriverSlot1"
+    ],
+    [
+      "737fe2cb-ddbd-418d-b715-c23da03bd153",
+      "DriverSlot2"
+    ],
+    [
+      "8bf59366-e420-4746-8822-703712105fa9",
+      "DriverSlot3"
+    ],
+    [
+      "708e5277-de2a-4f43-93b3-3151733dd0ef",
+      "DriverSlot4"
     ]
   ],
   "text_variables": {}
