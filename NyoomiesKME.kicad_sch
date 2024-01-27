@@ -5,9 +5,12 @@
   (paper "A5")
 
   (title_block
-    (title "Pear Nyoomies V4 ~ Klipper Motor Expansion")
-    (date "2024-01-16")
+    (title "Nyoomies KME V4 (Klipper Motor Expansion)")
+    (date "2024-01-27")
     (rev "4")
+    (company "Pera @ https://transfur.science/f191")
+    (comment 1 "CERN OHL v2 - S")
+    (comment 3 "https://github.com/comradef191/NyoomiesKME")
   )
 
   (lib_symbols
@@ -1925,7 +1928,7 @@
   (symbol (lib_id "power:+3V3") (at 53.34 33.02 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e86e7ca-3275-4da6-932f-e855f35052ee)
-    (property "Reference" "#PWR09" (at 49.53 33.02 0)
+    (property "Reference" "#PWR055" (at 49.53 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 58.42 33.02 90)
@@ -1940,12 +1943,6 @@
     (pin "1" (uuid aea4662f-d27f-47ef-a962-cc4a5c5dd933))
     (instances
       (project "NyoomiesKME"
-        (path "/21133c32-3cd4-4050-babc-e77cc2031358/737fe2cb-ddbd-418d-b715-c23da03bd153"
-          (reference "#PWR09") (unit 1)
-        )
-        (path "/21133c32-3cd4-4050-babc-e77cc2031358/1d7a2495-23fc-4cb7-a0c2-2cbaed86dcc8"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/21133c32-3cd4-4050-babc-e77cc2031358/8bf59366-e420-4746-8822-703712105fa9"
           (reference "#PWR055") (unit 1)
         )
@@ -1955,8 +1952,17 @@
         (path "/21133c32-3cd4-4050-babc-e77cc2031358/708e5277-de2a-4f43-93b3-3151733dd0ef"
           (reference "#PWR011") (unit 1)
         )
+        (path "/21133c32-3cd4-4050-babc-e77cc2031358/737fe2cb-ddbd-418d-b715-c23da03bd153"
+          (reference "#PWR09") (unit 1)
+        )
+        (path "/21133c32-3cd4-4050-babc-e77cc2031358/1d7a2495-23fc-4cb7-a0c2-2cbaed86dcc8"
+          (reference "#PWR048") (unit 1)
+        )
       )
       (project "NyoomiesXL"
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/6c08c713-5c11-477a-ad23-85dd73517d45"
+          (reference "#PWR085") (unit 1)
+        )
         (path "/403fb52a-238b-449f-a478-bb229d0d492d/ba202478-c7ea-4730-99e1-13701c183ea1"
           (reference "#PWR019") (unit 1)
         )
@@ -1975,9 +1981,6 @@
         (path "/403fb52a-238b-449f-a478-bb229d0d492d/6c64a131-427d-49ec-b453-4b18b9e7573e"
           (reference "#PWR014") (unit 1)
         )
-        (path "/403fb52a-238b-449f-a478-bb229d0d492d/64e6e6c5-6a29-4ae0-ab62-c27b0dbc8b4a"
-          (reference "#PWR024") (unit 1)
-        )
         (path "/403fb52a-238b-449f-a478-bb229d0d492d/2461cc2a-1399-4615-8aae-0791b4210bbd"
           (reference "#PWR080") (unit 1)
         )
@@ -1986,9 +1989,6 @@
         )
         (path "/403fb52a-238b-449f-a478-bb229d0d492d/be377135-7221-4c13-b3ee-50406eb36fca"
           (reference "#PWR055") (unit 1)
-        )
-        (path "/403fb52a-238b-449f-a478-bb229d0d492d/6c08c713-5c11-477a-ad23-85dd73517d45"
-          (reference "#PWR085") (unit 1)
         )
         (path "/403fb52a-238b-449f-a478-bb229d0d492d/3250dce3-d26d-45ff-ac6d-d4310db496d8"
           (reference "#PWR065") (unit 1)
@@ -2004,6 +2004,9 @@
         )
         (path "/403fb52a-238b-449f-a478-bb229d0d492d/e3c2d7fa-2539-44b2-a6cf-a33e9decaf6d"
           (reference "#PWR095") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/64e6e6c5-6a29-4ae0-ab62-c27b0dbc8b4a"
+          (reference "#PWR024") (unit 1)
         )
       )
       (project "CursedPiBoard"
@@ -2176,7 +2179,7 @@
   (symbol (lib_id "power:+3V3") (at 25.4 30.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d1e82ff-19bc-4451-9328-658f8c435040)
-    (property "Reference" "#PWR09" (at 29.21 30.48 0)
+    (property "Reference" "#PWR055" (at 29.21 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 20.32 30.48 90)
@@ -2191,12 +2194,6 @@
     (pin "1" (uuid 8cc7de96-872e-420a-a5e3-5b435a4390a4))
     (instances
       (project "NyoomiesKME"
-        (path "/21133c32-3cd4-4050-babc-e77cc2031358/737fe2cb-ddbd-418d-b715-c23da03bd153"
-          (reference "#PWR09") (unit 1)
-        )
-        (path "/21133c32-3cd4-4050-babc-e77cc2031358/1d7a2495-23fc-4cb7-a0c2-2cbaed86dcc8"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/21133c32-3cd4-4050-babc-e77cc2031358/8bf59366-e420-4746-8822-703712105fa9"
           (reference "#PWR055") (unit 1)
         )
@@ -2206,8 +2203,17 @@
         (path "/21133c32-3cd4-4050-babc-e77cc2031358/708e5277-de2a-4f43-93b3-3151733dd0ef"
           (reference "#PWR011") (unit 1)
         )
+        (path "/21133c32-3cd4-4050-babc-e77cc2031358/737fe2cb-ddbd-418d-b715-c23da03bd153"
+          (reference "#PWR09") (unit 1)
+        )
+        (path "/21133c32-3cd4-4050-babc-e77cc2031358/1d7a2495-23fc-4cb7-a0c2-2cbaed86dcc8"
+          (reference "#PWR048") (unit 1)
+        )
       )
       (project "NyoomiesXL"
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/6c08c713-5c11-477a-ad23-85dd73517d45"
+          (reference "#PWR085") (unit 1)
+        )
         (path "/403fb52a-238b-449f-a478-bb229d0d492d/ba202478-c7ea-4730-99e1-13701c183ea1"
           (reference "#PWR019") (unit 1)
         )
@@ -2226,9 +2232,6 @@
         (path "/403fb52a-238b-449f-a478-bb229d0d492d/6c64a131-427d-49ec-b453-4b18b9e7573e"
           (reference "#PWR014") (unit 1)
         )
-        (path "/403fb52a-238b-449f-a478-bb229d0d492d/64e6e6c5-6a29-4ae0-ab62-c27b0dbc8b4a"
-          (reference "#PWR024") (unit 1)
-        )
         (path "/403fb52a-238b-449f-a478-bb229d0d492d/2461cc2a-1399-4615-8aae-0791b4210bbd"
           (reference "#PWR080") (unit 1)
         )
@@ -2237,9 +2240,6 @@
         )
         (path "/403fb52a-238b-449f-a478-bb229d0d492d/be377135-7221-4c13-b3ee-50406eb36fca"
           (reference "#PWR055") (unit 1)
-        )
-        (path "/403fb52a-238b-449f-a478-bb229d0d492d/6c08c713-5c11-477a-ad23-85dd73517d45"
-          (reference "#PWR085") (unit 1)
         )
         (path "/403fb52a-238b-449f-a478-bb229d0d492d/3250dce3-d26d-45ff-ac6d-d4310db496d8"
           (reference "#PWR065") (unit 1)
@@ -2255,6 +2255,9 @@
         )
         (path "/403fb52a-238b-449f-a478-bb229d0d492d/e3c2d7fa-2539-44b2-a6cf-a33e9decaf6d"
           (reference "#PWR095") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/64e6e6c5-6a29-4ae0-ab62-c27b0dbc8b4a"
+          (reference "#PWR024") (unit 1)
         )
       )
       (project "CursedPiBoard"
@@ -2963,7 +2966,7 @@
   (symbol (lib_id "power:+3V3") (at 22.86 60.96 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b64dcd17-b403-4906-a43a-daf1ea880600)
-    (property "Reference" "#PWR09" (at 26.67 60.96 0)
+    (property "Reference" "#PWR055" (at 26.67 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 17.78 60.96 90)
@@ -2978,12 +2981,6 @@
     (pin "1" (uuid e1eac3da-0503-4f06-a216-ae6061583cca))
     (instances
       (project "NyoomiesKME"
-        (path "/21133c32-3cd4-4050-babc-e77cc2031358/737fe2cb-ddbd-418d-b715-c23da03bd153"
-          (reference "#PWR09") (unit 1)
-        )
-        (path "/21133c32-3cd4-4050-babc-e77cc2031358/1d7a2495-23fc-4cb7-a0c2-2cbaed86dcc8"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/21133c32-3cd4-4050-babc-e77cc2031358/8bf59366-e420-4746-8822-703712105fa9"
           (reference "#PWR055") (unit 1)
         )
@@ -2993,8 +2990,17 @@
         (path "/21133c32-3cd4-4050-babc-e77cc2031358/708e5277-de2a-4f43-93b3-3151733dd0ef"
           (reference "#PWR011") (unit 1)
         )
+        (path "/21133c32-3cd4-4050-babc-e77cc2031358/737fe2cb-ddbd-418d-b715-c23da03bd153"
+          (reference "#PWR09") (unit 1)
+        )
+        (path "/21133c32-3cd4-4050-babc-e77cc2031358/1d7a2495-23fc-4cb7-a0c2-2cbaed86dcc8"
+          (reference "#PWR048") (unit 1)
+        )
       )
       (project "NyoomiesXL"
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/6c08c713-5c11-477a-ad23-85dd73517d45"
+          (reference "#PWR085") (unit 1)
+        )
         (path "/403fb52a-238b-449f-a478-bb229d0d492d/ba202478-c7ea-4730-99e1-13701c183ea1"
           (reference "#PWR019") (unit 1)
         )
@@ -3013,9 +3019,6 @@
         (path "/403fb52a-238b-449f-a478-bb229d0d492d/6c64a131-427d-49ec-b453-4b18b9e7573e"
           (reference "#PWR014") (unit 1)
         )
-        (path "/403fb52a-238b-449f-a478-bb229d0d492d/64e6e6c5-6a29-4ae0-ab62-c27b0dbc8b4a"
-          (reference "#PWR024") (unit 1)
-        )
         (path "/403fb52a-238b-449f-a478-bb229d0d492d/2461cc2a-1399-4615-8aae-0791b4210bbd"
           (reference "#PWR080") (unit 1)
         )
@@ -3024,9 +3027,6 @@
         )
         (path "/403fb52a-238b-449f-a478-bb229d0d492d/be377135-7221-4c13-b3ee-50406eb36fca"
           (reference "#PWR055") (unit 1)
-        )
-        (path "/403fb52a-238b-449f-a478-bb229d0d492d/6c08c713-5c11-477a-ad23-85dd73517d45"
-          (reference "#PWR085") (unit 1)
         )
         (path "/403fb52a-238b-449f-a478-bb229d0d492d/3250dce3-d26d-45ff-ac6d-d4310db496d8"
           (reference "#PWR065") (unit 1)
@@ -3042,6 +3042,9 @@
         )
         (path "/403fb52a-238b-449f-a478-bb229d0d492d/e3c2d7fa-2539-44b2-a6cf-a33e9decaf6d"
           (reference "#PWR095") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/64e6e6c5-6a29-4ae0-ab62-c27b0dbc8b4a"
+          (reference "#PWR024") (unit 1)
         )
       )
       (project "CursedPiBoard"
