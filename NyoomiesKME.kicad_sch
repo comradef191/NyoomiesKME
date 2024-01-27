@@ -7,7 +7,7 @@
   (title_block
     (title "Pear Nyoomies V4 ~ Klipper Motor Expansion")
     (date "2024-01-16")
-    (rev "3.5")
+    (rev "4")
   )
 
   (lib_symbols
@@ -773,58 +773,6 @@
         )
       )
     )
-    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3.3V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3.3V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+3.3V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3.3V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "power:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1135,6 +1083,10 @@
     (uuid 986d852e-09e9-47e1-a9fa-499f92d750ee)
   )
 
+  (wire (pts (xy 165.1 24.13) (xy 165.1 25.4))
+    (stroke (width 0) (type default))
+    (uuid 9894ee08-2cd2-48b9-9db3-a497900562cb)
+  )
   (wire (pts (xy 41.91 86.36) (xy 41.91 86.995))
     (stroke (width 0) (type default))
     (uuid 9f9b141a-ae01-4b50-910d-438549e0d033)
@@ -1167,6 +1119,14 @@
     (stroke (width 0) (type default))
     (uuid c05f8170-1a6a-4bff-884b-89be8bc0877b)
   )
+  (wire (pts (xy 165.1 21.59) (xy 165.1 22.86))
+    (stroke (width 0) (type default))
+    (uuid cfde46e3-11a1-403e-b9c2-7c0d0d03a425)
+  )
+  (wire (pts (xy 165.1 19.05) (xy 165.1 20.32))
+    (stroke (width 0) (type default))
+    (uuid d6f38eca-f63a-49ed-a52b-c087d4e61277)
+  )
   (polyline (pts (xy 31.75 74.295) (xy 31.75 94.615))
     (stroke (width 0.5) (type default))
     (uuid dff81b68-8436-46ab-a14a-6055993729da)
@@ -1187,6 +1147,10 @@
   (wire (pts (xy 105.41 34.29) (xy 105.41 35.56))
     (stroke (width 0) (type default))
     (uuid f30d043d-54f1-468a-b97a-be77446f6c7a)
+  )
+  (wire (pts (xy 140.97 57.15) (xy 140.97 58.42))
+    (stroke (width 0) (type default))
+    (uuid fa32e8f6-80f7-4005-ae0d-4199f487f396)
   )
   (wire (pts (xy 24.13 60.96) (xy 24.13 62.23))
     (stroke (width 0) (type default))
@@ -1320,7 +1284,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 039ed87e-e8b3-463e-876c-1cade1782b71)
   )
-  (label "SPI-CS2" (at 53.34 40.64 0) (fields_autoplaced)
+  (label "SPI_CS2" (at 53.34 40.64 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27) (color 0 255 255 1)) (justify left bottom))
     (uuid 07f7f989-573a-4822-a3a7-ace7e08c8954)
   )
@@ -1347,10 +1311,6 @@
   (label "M3-DIR" (at 165.1 45.72 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 264515f2-3039-4ddd-851f-4710818f5115)
-  )
-  (label "SPI_MOSI" (at 140.97 58.42 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27) (color 0 255 255 1)) (justify left bottom))
-    (uuid 286495aa-039c-464d-b37d-dd50d3dad4e9)
   )
   (label "SPI_CS3" (at 105.41 38.1 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27) (color 0 255 255 1)) (justify right bottom))
@@ -1391,10 +1351,6 @@
   (label "UART_RX" (at 105.41 66.04 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27) (color 0 255 0 1)) (justify right bottom))
     (uuid 3ebe0934-0f6a-404e-9b93-621bed2d2ddf)
-  )
-  (label "SPI_SCK" (at 140.97 66.04 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27) (color 0 255 255 1)) (justify left bottom))
-    (uuid 414cadbe-fd4d-4037-9182-af6e0156095e)
   )
   (label "STM32_EX1" (at 185.42 60.96 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1443,10 +1399,6 @@
   (label "M1-EN" (at 25.4 19.05 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 64198d30-bcf0-4128-aec0-29d405279739)
-  )
-  (label "SPI_MISO" (at 140.97 63.5 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27) (color 0 255 255 1)) (justify left bottom))
-    (uuid 6489e3ed-73d9-4eb7-b333-2966796b7a35)
   )
   (label "VIN" (at 26.67 116.84 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1540,10 +1492,6 @@
     (effects (font (size 1.27 1.27) (color 0 255 0 1)) (justify left bottom))
     (uuid a0701201-d166-4769-b013-c40da89fe734)
   )
-  (label "SPI_SCK" (at 165.1 20.32 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27) (color 0 255 255 1)) (justify right bottom))
-    (uuid a0c9f240-7671-4a8e-89d1-bf2da7ba1bd2)
-  )
   (label "SPI_CS1" (at 105.41 33.02 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27) (color 0 255 255 1)) (justify right bottom))
     (uuid a1336f96-cd50-4021-8eb8-95a956744cd9)
@@ -1604,10 +1552,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c8f846d8-5fb5-4573-b5f2-5a3d3b6c79fe)
   )
-  (label "SPI_MISO" (at 165.1 22.86 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27) (color 0 255 255 1)) (justify right bottom))
-    (uuid c943196a-f544-45d3-8420-444c93b17ce1)
-  )
   (label "M2-STEP" (at 185.42 30.48 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cb003041-4af5-41e6-b855-cb7d05c5e111)
@@ -1656,10 +1600,6 @@
     (effects (font (face "KiCad Font") (size 1.27 1.27)) (justify left bottom))
     (uuid f055d8f3-5e4e-4e75-933c-d7deda43919b)
   )
-  (label "SPI_MOSI" (at 165.1 25.4 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27) (color 0 255 255 1)) (justify right bottom))
-    (uuid f4a1a284-90ec-449b-8113-b0fbe92f47df)
-  )
   (label "M3-STEP" (at 25.4 53.34 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid f4fadd4f-c8c3-4767-b26e-a71cb87d94bd)
@@ -1669,33 +1609,46 @@
     (uuid fe6d1d88-e1e3-4940-981b-e39f63fb1c6b)
   )
 
-  (symbol (lib_id "power:+3.3V") (at 22.86 60.96 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 05c4ae9b-aaf6-4ae9-a0ae-161ae1fef035)
-    (property "Reference" "#PWR021" (at 26.67 60.96 0)
-      (effects (font (size 1.27 1.27)) hide)
+  (global_label "SPI_SCK" (shape input) (at 165.1 19.05 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27) (color 0 255 255 1)) (justify right))
+    (uuid 76f0acf3-914b-4e1f-8df0-376877c0b99f)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 154.3134 19.05 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Value" "+3.3V" (at 20.32 60.96 90)
-      (effects (font (size 1.27 1.27) (color 0 255 0 1)) (justify left))
+  )
+  (global_label "SPI_MOSI" (shape input) (at 165.1 24.13 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27) (color 0 255 255 1)) (justify right))
+    (uuid b753aeb0-6f9f-442e-a5ad-a6c5613afc6d)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 153.4667 24.13 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Footprint" "" (at 22.86 60.96 0)
-      (effects (font (size 1.27 1.27)) hide)
+  )
+  (global_label "SPI_MISO" (shape input) (at 165.1 21.59 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27) (color 0 255 255 1)) (justify right))
+    (uuid bcbe40db-e417-409b-b297-6169a7bcdaff)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 153.4667 21.59 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Datasheet" "" (at 22.86 60.96 0)
-      (effects (font (size 1.27 1.27)) hide)
+  )
+  (global_label "SPI_SCK" (shape input) (at 140.97 66.04 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27) (color 0 255 255 1)) (justify left))
+    (uuid c24ab1ba-b884-4825-8a91-5906b740f178)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 151.7566 66.04 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid ddea1390-8b5a-4362-ba18-f7c2bb5c3ca1))
-    (instances
-      (project "NyoomiesKME"
-        (path "/21133c32-3cd4-4050-babc-e77cc2031358"
-          (reference "#PWR021") (unit 1)
-        )
-      )
-      (project "NyoomiesXL"
-        (path "/403fb52a-238b-449f-a478-bb229d0d492d"
-          (reference "#PWR031") (unit 1)
-        )
-      )
+  )
+  (global_label "SPI_MISO" (shape input) (at 140.97 63.5 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27) (color 0 255 255 1)) (justify left))
+    (uuid e2e9f1be-3777-467e-ac36-3b57af4fcb69)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 152.6033 63.5 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "SPI_MOSI" (shape input) (at 140.97 57.15 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27) (color 0 255 255 1)) (justify left))
+    (uuid f403a163-df7a-48b2-a0ae-2d1d27e9117c)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 152.6033 57.15 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
 
@@ -1708,7 +1661,7 @@
     (property "Value" "Pico" (at 123.19 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH - WIth Headers - No SMD" (at 123.19 41.91 90)
+    (property "Footprint" "CustomFootprints:Pico-BlackPill_Textless" (at 123.19 41.91 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 123.19 41.91 0)
@@ -1758,36 +1711,6 @@
       (project "NyoomiesKME"
         (path "/21133c32-3cd4-4050-babc-e77cc2031358"
           (reference "U1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 53.34 33.02 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0b82c5ec-c7b1-457e-a9d8-8219a5f20262)
-    (property "Reference" "#PWR020" (at 49.53 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 55.88 33.02 90)
-      (effects (font (size 1.27 1.27) (color 0 255 0 1)) (justify left))
-    )
-    (property "Footprint" "" (at 53.34 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 53.34 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ec27c5d4-7299-4484-9ea0-43fce48cc391))
-    (instances
-      (project "NyoomiesKME"
-        (path "/21133c32-3cd4-4050-babc-e77cc2031358"
-          (reference "#PWR020") (unit 1)
-        )
-      )
-      (project "NyoomiesXL"
-        (path "/403fb52a-238b-449f-a478-bb229d0d492d"
-          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -1999,6 +1922,98 @@
     )
   )
 
+  (symbol (lib_id "power:+3V3") (at 53.34 33.02 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 2e86e7ca-3275-4da6-932f-e855f35052ee)
+    (property "Reference" "#PWR011" (at 49.53 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 58.42 33.02 90)
+      (effects (font (size 1.27 1.27) (color 0 255 0 1)))
+    )
+    (property "Footprint" "" (at 53.34 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 53.34 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid aea4662f-d27f-47ef-a962-cc4a5c5dd933))
+    (instances
+      (project "NyoomiesKME"
+        (path "/21133c32-3cd4-4050-babc-e77cc2031358/708e5277-de2a-4f43-93b3-3151733dd0ef"
+          (reference "#PWR011") (unit 1)
+        )
+        (path "/21133c32-3cd4-4050-babc-e77cc2031358/737fe2cb-ddbd-418d-b715-c23da03bd153"
+          (reference "#PWR09") (unit 1)
+        )
+        (path "/21133c32-3cd4-4050-babc-e77cc2031358/1d7a2495-23fc-4cb7-a0c2-2cbaed86dcc8"
+          (reference "#PWR048") (unit 1)
+        )
+        (path "/21133c32-3cd4-4050-babc-e77cc2031358/8bf59366-e420-4746-8822-703712105fa9"
+          (reference "#PWR055") (unit 1)
+        )
+        (path "/21133c32-3cd4-4050-babc-e77cc2031358"
+          (reference "#PWR020") (unit 1)
+        )
+      )
+      (project "NyoomiesXL"
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/e3c2d7fa-2539-44b2-a6cf-a33e9decaf6d"
+          (reference "#PWR095") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/2def4d6f-77f6-4431-a549-86d78a343aad"
+          (reference "#PWR099") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/f10284cf-eb49-4532-9784-eb58e6d86f75"
+          (reference "#PWR071") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d"
+          (reference "#PWR020") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/3250dce3-d26d-45ff-ac6d-d4310db496d8"
+          (reference "#PWR065") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/6c08c713-5c11-477a-ad23-85dd73517d45"
+          (reference "#PWR085") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/ba202478-c7ea-4730-99e1-13701c183ea1"
+          (reference "#PWR019") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/be377135-7221-4c13-b3ee-50406eb36fca"
+          (reference "#PWR055") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/ad5db97d-bf67-49e2-895e-48f3659b813a"
+          (reference "#PWR0104") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/2461cc2a-1399-4615-8aae-0791b4210bbd"
+          (reference "#PWR080") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/64e6e6c5-6a29-4ae0-ab62-c27b0dbc8b4a"
+          (reference "#PWR024") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/6c64a131-427d-49ec-b453-4b18b9e7573e"
+          (reference "#PWR014") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/fdbc5542-8511-4f62-96ab-6822c8bd2b1f"
+          (reference "#PWR090") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/6fdba6c3-604a-43af-8b2c-84057ba0a9ac"
+          (reference "#PWR060") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/6c182284-284f-480e-a621-ce6efabda025"
+          (reference "#PWR011") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/1e41b1b1-8f3c-4bbc-9349-4ce307f624e8"
+          (reference "#PWR050") (unit 1)
+        )
+      )
+      (project "CursedPiBoard"
+        (path "/c2d513fa-62e4-43c5-abb2-c791bed6cfd7"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "CustomSymbols:STM32F401_Black_Pill") (at 185.42 71.12 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 30734345-2eb0-4cb9-bf55-d0e96412dccf)
@@ -2008,7 +2023,7 @@
     (property "Value" "~" (at 185.42 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "CustomFootprints:Pico-BlackPill_Textless" (at 185.42 71.12 0)
+    (property "Footprint" "CustomFootprints:Socketed MCU - STM32 BlackPill" (at 185.42 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 185.42 71.12 0)
@@ -2158,6 +2173,98 @@
     )
   )
 
+  (symbol (lib_id "power:+3V3") (at 25.4 30.48 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3d1e82ff-19bc-4451-9328-658f8c435040)
+    (property "Reference" "#PWR011" (at 29.21 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 20.32 30.48 90)
+      (effects (font (size 1.27 1.27) (color 0 255 0 1)))
+    )
+    (property "Footprint" "" (at 25.4 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 25.4 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8cc7de96-872e-420a-a5e3-5b435a4390a4))
+    (instances
+      (project "NyoomiesKME"
+        (path "/21133c32-3cd4-4050-babc-e77cc2031358/708e5277-de2a-4f43-93b3-3151733dd0ef"
+          (reference "#PWR011") (unit 1)
+        )
+        (path "/21133c32-3cd4-4050-babc-e77cc2031358/737fe2cb-ddbd-418d-b715-c23da03bd153"
+          (reference "#PWR09") (unit 1)
+        )
+        (path "/21133c32-3cd4-4050-babc-e77cc2031358/1d7a2495-23fc-4cb7-a0c2-2cbaed86dcc8"
+          (reference "#PWR048") (unit 1)
+        )
+        (path "/21133c32-3cd4-4050-babc-e77cc2031358/8bf59366-e420-4746-8822-703712105fa9"
+          (reference "#PWR055") (unit 1)
+        )
+        (path "/21133c32-3cd4-4050-babc-e77cc2031358"
+          (reference "#PWR021") (unit 1)
+        )
+      )
+      (project "NyoomiesXL"
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/e3c2d7fa-2539-44b2-a6cf-a33e9decaf6d"
+          (reference "#PWR095") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/2def4d6f-77f6-4431-a549-86d78a343aad"
+          (reference "#PWR099") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/f10284cf-eb49-4532-9784-eb58e6d86f75"
+          (reference "#PWR071") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d"
+          (reference "#PWR020") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/3250dce3-d26d-45ff-ac6d-d4310db496d8"
+          (reference "#PWR065") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/6c08c713-5c11-477a-ad23-85dd73517d45"
+          (reference "#PWR085") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/ba202478-c7ea-4730-99e1-13701c183ea1"
+          (reference "#PWR019") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/be377135-7221-4c13-b3ee-50406eb36fca"
+          (reference "#PWR055") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/ad5db97d-bf67-49e2-895e-48f3659b813a"
+          (reference "#PWR0104") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/2461cc2a-1399-4615-8aae-0791b4210bbd"
+          (reference "#PWR080") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/64e6e6c5-6a29-4ae0-ab62-c27b0dbc8b4a"
+          (reference "#PWR024") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/6c64a131-427d-49ec-b453-4b18b9e7573e"
+          (reference "#PWR014") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/fdbc5542-8511-4f62-96ab-6822c8bd2b1f"
+          (reference "#PWR090") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/6fdba6c3-604a-43af-8b2c-84057ba0a9ac"
+          (reference "#PWR060") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/6c182284-284f-480e-a621-ce6efabda025"
+          (reference "#PWR011") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/1e41b1b1-8f3c-4bbc-9349-4ce307f624e8"
+          (reference "#PWR050") (unit 1)
+        )
+      )
+      (project "CursedPiBoard"
+        (path "/c2d513fa-62e4-43c5-abb2-c791bed6cfd7"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+3V3") (at 140.97 27.94 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3e65c175-2f5b-47c8-b29c-5cbaec57ca5f)
@@ -2233,36 +2340,6 @@
       (project "RP2040_minimal"
         (path "/d8ade4b2-6c54-4a05-b3d1-b290a389f77d"
           (reference "#PWR011") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 25.4 30.48 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 45808991-a6df-425b-87c8-3df132130393)
-    (property "Reference" "#PWR015" (at 29.21 30.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 22.86 30.48 90)
-      (effects (font (size 1.27 1.27) (color 0 255 0 1)) (justify left))
-    )
-    (property "Footprint" "" (at 25.4 30.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 25.4 30.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1139fd8b-bea3-4a2e-8057-fa73b396cd79))
-    (instances
-      (project "NyoomiesKME"
-        (path "/21133c32-3cd4-4050-babc-e77cc2031358"
-          (reference "#PWR015") (unit 1)
-        )
-      )
-      (project "NyoomiesXL"
-        (path "/403fb52a-238b-449f-a478-bb229d0d492d"
-          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -2819,16 +2896,16 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 20.32 106.045 270) (unit 1)
+  (symbol (lib_id "Device:R") (at 20.32 106.045 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae5a4846-6f72-4452-97c1-1742e9ab03c2)
-    (property "Reference" "R1" (at 13.97 106.045 90)
+    (property "Reference" "R1" (at 26.67 106.045 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1k" (at 19.05 106.045 90)
+    (property "Value" "1k" (at 21.59 106.045 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 20.32 104.267 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 20.32 107.823 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 20.32 106.045 0)
@@ -2878,6 +2955,98 @@
       (project "NyoomiesKME"
         (path "/21133c32-3cd4-4050-babc-e77cc2031358"
           (reference "#PWR046") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3V3") (at 22.86 60.96 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b64dcd17-b403-4906-a43a-daf1ea880600)
+    (property "Reference" "#PWR011" (at 26.67 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 17.78 60.96 90)
+      (effects (font (size 1.27 1.27) (color 0 255 0 1)))
+    )
+    (property "Footprint" "" (at 22.86 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 22.86 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e1eac3da-0503-4f06-a216-ae6061583cca))
+    (instances
+      (project "NyoomiesKME"
+        (path "/21133c32-3cd4-4050-babc-e77cc2031358/708e5277-de2a-4f43-93b3-3151733dd0ef"
+          (reference "#PWR011") (unit 1)
+        )
+        (path "/21133c32-3cd4-4050-babc-e77cc2031358/737fe2cb-ddbd-418d-b715-c23da03bd153"
+          (reference "#PWR09") (unit 1)
+        )
+        (path "/21133c32-3cd4-4050-babc-e77cc2031358/1d7a2495-23fc-4cb7-a0c2-2cbaed86dcc8"
+          (reference "#PWR048") (unit 1)
+        )
+        (path "/21133c32-3cd4-4050-babc-e77cc2031358/8bf59366-e420-4746-8822-703712105fa9"
+          (reference "#PWR055") (unit 1)
+        )
+        (path "/21133c32-3cd4-4050-babc-e77cc2031358"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+      (project "NyoomiesXL"
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/e3c2d7fa-2539-44b2-a6cf-a33e9decaf6d"
+          (reference "#PWR095") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/2def4d6f-77f6-4431-a549-86d78a343aad"
+          (reference "#PWR099") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/f10284cf-eb49-4532-9784-eb58e6d86f75"
+          (reference "#PWR071") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d"
+          (reference "#PWR020") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/3250dce3-d26d-45ff-ac6d-d4310db496d8"
+          (reference "#PWR065") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/6c08c713-5c11-477a-ad23-85dd73517d45"
+          (reference "#PWR085") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/ba202478-c7ea-4730-99e1-13701c183ea1"
+          (reference "#PWR019") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/be377135-7221-4c13-b3ee-50406eb36fca"
+          (reference "#PWR055") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/ad5db97d-bf67-49e2-895e-48f3659b813a"
+          (reference "#PWR0104") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/2461cc2a-1399-4615-8aae-0791b4210bbd"
+          (reference "#PWR080") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/64e6e6c5-6a29-4ae0-ab62-c27b0dbc8b4a"
+          (reference "#PWR024") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/6c64a131-427d-49ec-b453-4b18b9e7573e"
+          (reference "#PWR014") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/fdbc5542-8511-4f62-96ab-6822c8bd2b1f"
+          (reference "#PWR090") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/6fdba6c3-604a-43af-8b2c-84057ba0a9ac"
+          (reference "#PWR060") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/6c182284-284f-480e-a621-ce6efabda025"
+          (reference "#PWR011") (unit 1)
+        )
+        (path "/403fb52a-238b-449f-a478-bb229d0d492d/1e41b1b1-8f3c-4bbc-9349-4ce307f624e8"
+          (reference "#PWR050") (unit 1)
+        )
+      )
+      (project "CursedPiBoard"
+        (path "/c2d513fa-62e4-43c5-abb2-c791bed6cfd7"
+          (reference "#PWR08") (unit 1)
         )
       )
     )

@@ -1,0 +1,89 @@
+01-18 11:37:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'linux'
+01-18 11:37:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.11.6 (main, Oct  8 2023, 05:06:43) [GCC 13.2.0]'
+01-18 11:37:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.9-7.0.9~ubuntu23.04.1
+01-18 11:37:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
+01-18 11:37:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x7f9653d80820>
+01-18 11:37:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with C4 as a reference
+01-18 11:37:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+01-18 11:37:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 136:Footprint G*** does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
+01-18 11:37:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 136:Footprint G*** does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
+01-18 11:37:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'C4'
+Located on: ['DriverSlot4']
+With filenames: ['DriverSlot.kicad_sch']
+With sheet_id:['DriverSlot4']
+01-18 11:37:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('C3', ['DriverSlot3']), ('C2', ['DriverSlot2']), ('C4', ['DriverSlot4']), ('C1', ['DriverSlot1'])]
+01-18 11:37:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+01-18 11:37:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'DriverSlot4', file:'DriverSlot.kicad_sch'
+01-18 11:37:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['DriverSlot1'], ['DriverSlot2'], ['DriverSlot3']]
+01-18 11:37:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['DriverSlot4']
+01-18 11:37:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+01-18 11:37:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(3619, 131)
+01-18 11:37:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(3180, 131)
+01-18 11:37:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'DriverSlot4', file:'DriverSlot.kicad_sch'
+01-18 11:37:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['DriverSlot1'], ['DriverSlot2'], ['DriverSlot3']]
+01-18 11:37:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['DriverSlot4']
+01-18 11:37:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'DriverSlot4', file:'DriverSlot.kicad_sch'
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['DriverSlot1'], ['DriverSlot2'], ['DriverSlot3']]
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['DriverSlot1'], ['DriverSlot2'], ['DriverSlot3']]
+on level: ['DriverSlot4']
+with tracks=True, zone=True, text=True, text=True, intersecting=True, remove=True, locked footprints=False, group_only=False
+01-18 11:37:42 root 332:updating GUI message: 'Preparing for replication'
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
+01-18 11:37:42 root 337:updating GUI with: 0
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 272:Removing tracks and zones, before footprint placement
+01-18 11:37:42 root 332:updating GUI message: 'Removing zones and tracks'
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:35054383, bottom:72945000, Left:116809000, Right:139146000
+01-18 11:37:42 root 337:updating GUI with: 33
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:35054383, bottom:72945000, Left:135320883, Right:161374000
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:35054383, bottom:72945000, Left:167225000, Right:189562000
+01-18 11:37:42 root 332:updating GUI message: 'Replicating footprints'
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
+01-18 11:37:42 root 337:updating GUI with: 0
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['DriverSlot1']
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['DriverSlot2']
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['DriverSlot3']
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 280:Removing tracks and zones, after footprint placement
+01-18 11:37:42 root 332:updating GUI message: 'Removing zones and tracks'
+01-18 11:37:42 root 337:updating GUI with: 0
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:35054383, bottom:72945000, Left:118279383, Right:142524200
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:35054383, bottom:72945000, Left:135320883, Right:159565700
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:35054383, bottom:72945000, Left:170503683, Right:194748500
+01-18 11:37:42 root 332:updating GUI message: 'Replicating tracks'
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
+01-18 11:37:42 root 337:updating GUI with: 0
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['DriverSlot1']
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['DriverSlot1'] :[('SPI_MOSI', 'SPI_MOSI'), ('/M4-STEP', '/M1-STEP'), ('/DriverSlot4/CLK', '/DriverSlot1/CLK'), ('Net-(J4-Pin_3)', 'Net-(J1-Pin_3)'), ('GND', 'GND'), ('/DriverSlot4/PDN2', '/DriverSlot1/PDN2'), ('Net-(J4-Pin_1)', 'Net-(J1-Pin_1)'), ('Net-(J27-Pin_2)', 'Net-(J19-Pin_2)'), ('/M4-DIAG', '/M1-DIAG'), ('/DriverSlot4/PDN1', '/DriverSlot1/PDN1'), ('/DriverSlot4/MS1', '/DriverSlot1/MS1'), ('unconnected-(M4-INDEX-Pad17)', 'unconnected-(M1-INDEX-Pad17)'), ('SPI_SCK', 'SPI_SCK'), ('/DriverSlot4/MS2', '/DriverSlot1/MS2'), ('/UART_RX', '/UART_RX'), ('SPI_MISO', 'SPI_MISO'), ('Net-(J4-Pin_4)', 'Net-(J1-Pin_4)'), ('/M4-DIR', '/M1-DIR'), ('GND', '+3V3'), ('+3V3', '+3V3'), ('Net-(J4-Pin_2)', 'Net-(J1-Pin_2)'), ('/SPI_CS4', '/SPI_CS1'), ('VDD', 'VDD'), ('/M4-EN', '/M1-EN')]
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['DriverSlot2']
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['DriverSlot2'] :[('/DriverSlot4/MS2', '/DriverSlot2/MS2'), ('SPI_MOSI', 'SPI_MOSI'), ('/DriverSlot4/PDN1', '/DriverSlot2/PDN1'), ('GND', 'GND'), ('/M4-STEP', '/M2-STEP'), ('Net-(J27-Pin_2)', 'Net-(J25-Pin_2)'), ('/M4-DIR', '/M2-DIR'), ('/DriverSlot4/MS1', '/DriverSlot2/MS1'), ('Net-(J4-Pin_4)', 'Net-(J2-Pin_4)'), ('/M4-DIAG', '/M2-DIAG'), ('Net-(J4-Pin_3)', 'Net-(J2-Pin_3)'), ('/DriverSlot4/PDN2', '/DriverSlot2/PDN2'), ('SPI_SCK', 'SPI_SCK'), ('/DriverSlot4/CLK', '/DriverSlot2/CLK'), ('/UART_RX', '/UART_RX'), ('GND', '+3V3'), ('SPI_MISO', 'SPI_MISO'), ('Net-(J4-Pin_1)', 'Net-(J2-Pin_1)'), ('/M4-EN', '/M2-EN'), ('+3V3', '+3V3'), ('VDD', 'VDD'), ('/SPI_CS4', '/SPI-CS2'), ('Net-(J4-Pin_2)', 'Net-(J2-Pin_2)'), ('unconnected-(M4-INDEX-Pad17)', 'unconnected-(M2-INDEX-Pad17)')]
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['DriverSlot3']
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['DriverSlot3'] :[('SPI_MOSI', 'SPI_MOSI'), ('Net-(J4-Pin_1)', 'Net-(J3-Pin_1)'), ('/DriverSlot4/CLK', '/DriverSlot3/CLK'), ('GND', 'GND'), ('/DriverSlot4/MS2', '/DriverSlot3/MS2'), ('/DriverSlot4/PDN1', '/DriverSlot3/PDN1'), ('/SPI_CS4', '/SPI_CS3'), ('Net-(J27-Pin_2)', 'Net-(J34-Pin_2)'), ('Net-(J4-Pin_2)', 'Net-(J3-Pin_2)'), ('/M4-STEP', '/M3-STEP'), ('Net-(J4-Pin_3)', 'Net-(J3-Pin_3)'), ('SPI_SCK', 'SPI_SCK'), ('/DriverSlot4/PDN2', '/DriverSlot3/PDN2'), ('/M4-EN', '/M3-EN'), ('/UART_RX', '/UART_RX'), ('SPI_MISO', 'SPI_MISO'), ('GND', '+3V3'), ('/DriverSlot4/MS1', '/DriverSlot3/MS1'), ('/M4-DIR', '/M3-DIR'), ('+3V3', '+3V3'), ('VDD', 'VDD'), ('/M4-DIAG', '/M3-DIAG'), ('unconnected-(M4-INDEX-Pad17)', 'unconnected-(M3-INDEX-Pad17)'), ('Net-(J4-Pin_4)', 'Net-(J3-Pin_4)')]
+01-18 11:37:42 root 332:updating GUI message: 'Replicating zones'
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating zones
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['DriverSlot1']
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['DriverSlot1'] :[('SPI_MOSI', 'SPI_MOSI'), ('/M4-STEP', '/M1-STEP'), ('/DriverSlot4/CLK', '/DriverSlot1/CLK'), ('Net-(J4-Pin_3)', 'Net-(J1-Pin_3)'), ('GND', 'GND'), ('/DriverSlot4/PDN2', '/DriverSlot1/PDN2'), ('Net-(J4-Pin_1)', 'Net-(J1-Pin_1)'), ('Net-(J27-Pin_2)', 'Net-(J19-Pin_2)'), ('/M4-DIAG', '/M1-DIAG'), ('/DriverSlot4/PDN1', '/DriverSlot1/PDN1'), ('/DriverSlot4/MS1', '/DriverSlot1/MS1'), ('unconnected-(M4-INDEX-Pad17)', 'unconnected-(M1-INDEX-Pad17)'), ('SPI_SCK', 'SPI_SCK'), ('/DriverSlot4/MS2', '/DriverSlot1/MS2'), ('/UART_RX', '/UART_RX'), ('SPI_MISO', 'SPI_MISO'), ('Net-(J4-Pin_4)', 'Net-(J1-Pin_4)'), ('/M4-DIR', '/M1-DIR'), ('GND', '+3V3'), ('+3V3', '+3V3'), ('Net-(J4-Pin_2)', 'Net-(J1-Pin_2)'), ('/SPI_CS4', '/SPI_CS1'), ('VDD', 'VDD'), ('/M4-EN', '/M1-EN')]
+01-18 11:37:42 root 337:updating GUI with: 33
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['DriverSlot2']
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['DriverSlot2'] :[('/DriverSlot4/MS2', '/DriverSlot2/MS2'), ('SPI_MOSI', 'SPI_MOSI'), ('/DriverSlot4/PDN1', '/DriverSlot2/PDN1'), ('GND', 'GND'), ('/M4-STEP', '/M2-STEP'), ('Net-(J27-Pin_2)', 'Net-(J25-Pin_2)'), ('/M4-DIR', '/M2-DIR'), ('/DriverSlot4/MS1', '/DriverSlot2/MS1'), ('Net-(J4-Pin_4)', 'Net-(J2-Pin_4)'), ('/M4-DIAG', '/M2-DIAG'), ('Net-(J4-Pin_3)', 'Net-(J2-Pin_3)'), ('/DriverSlot4/PDN2', '/DriverSlot2/PDN2'), ('SPI_SCK', 'SPI_SCK'), ('/DriverSlot4/CLK', '/DriverSlot2/CLK'), ('/UART_RX', '/UART_RX'), ('GND', '+3V3'), ('SPI_MISO', 'SPI_MISO'), ('Net-(J4-Pin_1)', 'Net-(J2-Pin_1)'), ('/M4-EN', '/M2-EN'), ('+3V3', '+3V3'), ('VDD', 'VDD'), ('/SPI_CS4', '/SPI-CS2'), ('Net-(J4-Pin_2)', 'Net-(J2-Pin_2)'), ('unconnected-(M4-INDEX-Pad17)', 'unconnected-(M2-INDEX-Pad17)')]
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['DriverSlot3']
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['DriverSlot3'] :[('SPI_MOSI', 'SPI_MOSI'), ('Net-(J4-Pin_1)', 'Net-(J3-Pin_1)'), ('/DriverSlot4/CLK', '/DriverSlot3/CLK'), ('GND', 'GND'), ('/DriverSlot4/MS2', '/DriverSlot3/MS2'), ('/DriverSlot4/PDN1', '/DriverSlot3/PDN1'), ('/SPI_CS4', '/SPI_CS3'), ('Net-(J27-Pin_2)', 'Net-(J34-Pin_2)'), ('Net-(J4-Pin_2)', 'Net-(J3-Pin_2)'), ('/M4-STEP', '/M3-STEP'), ('Net-(J4-Pin_3)', 'Net-(J3-Pin_3)'), ('SPI_SCK', 'SPI_SCK'), ('/DriverSlot4/PDN2', '/DriverSlot3/PDN2'), ('/M4-EN', '/M3-EN'), ('/UART_RX', '/UART_RX'), ('SPI_MISO', 'SPI_MISO'), ('GND', '+3V3'), ('/DriverSlot4/MS1', '/DriverSlot3/MS1'), ('/M4-DIR', '/M3-DIR'), ('+3V3', '+3V3'), ('VDD', 'VDD'), ('/M4-DIAG', '/M3-DIAG'), ('unconnected-(M4-INDEX-Pad17)', 'unconnected-(M3-INDEX-Pad17)'), ('Net-(J4-Pin_4)', 'Net-(J3-Pin_4)')]
+01-18 11:37:42 root 332:updating GUI message: 'Replicating text'
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['DriverSlot1']
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['DriverSlot2']
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['DriverSlot3']
+01-18 11:37:42 root 332:updating GUI message: 'Replicating drawings'
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['DriverSlot1']
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['DriverSlot2']
+01-18 11:37:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['DriverSlot3']
+01-18 11:37:42 root 332:updating GUI message: 'Removing duplicates'
+01-18 11:37:43 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
