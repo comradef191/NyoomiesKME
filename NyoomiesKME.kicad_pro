@@ -72,11 +72,9 @@
         "clearance|153292000|60960000|a6d5f8fa-79cd-4144-9a72-b7eeebd06af4|623baff4-6fe1-4695-a5a6-22595e9fbb95",
         "clearance|153292000|63500000|e60a7ffb-d242-43f4-a557-b2447a4c6535|a74b7d83-e64b-4671-b36f-f0f18ea4ba0e",
         "clearance|153292000|66040000|e501a56c-808a-4ec5-8bd2-4b8215a55cbf|632f506f-d8e6-4b2a-a677-bbbf3455e0ae",
-        "clearance|157395000|50462497|03d5ea84-e885-465f-a407-00a26b989c99|1d05624f-c541-4c6e-a183-31094d69252d",
         "clearance|158499000|58420000|a456d686-7f5f-44e1-9d51-4e29caafda35|08ebf533-702e-4060-bf63-4eef8e1dec64",
         "clearance|177329300|43180000|a6cf4e91-57e8-4973-b1aa-a6e23004d571|beef46a7-a611-478c-b5be-6c5509ab8060",
         "clearance|180210000|53340000|726afa0a-976e-409b-9e04-80b2f5318b16|fdc37c66-de56-41cf-a883-23b8742130ed",
-        "clearance|181480000|53330000|c18f502d-4a7f-4937-a82c-d1f15a9533c5|fdc37c66-de56-41cf-a883-23b8742130ed",
         "clearance|181480000|54610000|86e4da27-2bf6-4d79-98b8-4fc38a078f95|726afa0a-976e-409b-9e04-80b2f5318b16",
         "clearance|181480000|66040000|2146e48d-b3c7-4bd4-8aeb-fbd7cbc3cfcf|350aa086-7ef7-4f1a-abcd-a1ba5fb13ac2",
         "clearance|186237000|60960000|d2ad232a-2df5-4675-90df-0cc7fd09a066|cd7df808-0545-48fc-b726-a7335e16a851",
@@ -106,6 +104,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
@@ -167,9 +166,6 @@
       },
       "teardrop_options": [
         {
-          "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
-          "td_on_pad_in_zone": false,
           "td_onpadsmd": true,
           "td_onroundshapesonly": false,
           "td_ontrackend": true,
@@ -178,29 +174,35 @@
       ],
       "teardrop_parameters": [
         {
+          "td_allow_use_two_tracks": true,
           "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 5.0,
+          "td_on_pad_in_zone": false,
           "td_target_name": "td_round_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
         {
+          "td_allow_use_two_tracks": true,
           "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 5.0,
+          "td_on_pad_in_zone": false,
           "td_target_name": "td_rect_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
         {
+          "td_allow_use_two_tracks": true,
           "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 5.0,
+          "td_on_pad_in_zone": false,
           "td_target_name": "td_track_end",
           "td_width_to_size_filter_ratio": 0.9
         }
@@ -626,7 +628,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "PicoMotors.step",
@@ -637,6 +639,64 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "name": "Grouped By Value",
+      "sort_asc": true,
+      "sort_field": "Reference"
+    },
+    "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
@@ -650,6 +710,11 @@
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.15
     },
@@ -665,6 +730,7 @@
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
     "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
@@ -672,7 +738,7 @@
   "sheets": [
     [
       "21133c32-3cd4-4050-babc-e77cc2031358",
-      ""
+      "Root"
     ],
     [
       "1d7a2495-23fc-4cb7-a0c2-2cbaed86dcc8",
