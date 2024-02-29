@@ -12,19 +12,20 @@ Driver Configuration Jumpers:
 
 |Component|No. Needed|Cost (Total)|Comment|CPC URL|
 |---------|----------|------------|-------|-------|
-|MKDS 1711725 Terminal|1|£0.79|Power Input|https://cpc.farnell.com/phoenix-contact/1711725/terminal-block-pcb-5-08mm-2way/dp/CN14710?ost=1711725|
+|5.08mm Screw Terminal|1|£0.19|Power Input|https://cpc.farnell.com/multicomp/mc000034/terminal-block-wire-to-brd-2pos/dp/CN22057|
+|Automotive Mini-Blade Fuse Holder|1|£0.76|Takes ATO Fuses|https://cpc.farnell.com/unbranded/mccq-122/fuseholder-pcb-mount-mini-blade/dp/FF02092|
+|63v 470uF Capacitor|4|£3.08|Can be substituted with any cap up to 17mmø cap w/ up to 7.5mm pitch, ie a smaller 30v cap for 24v-only systems|https://cpc.farnell.com/panasonic/eca1jm471/capacitor-470uf-63v/dp/CA07285|
 |1x4 JST-XH Connector|4|£0.44|Motor Connectors|https://cpc.farnell.com/jst-japan-solderless-terminals/b4b-xh-a-lf-sn/header-vertical-4way/dp/CN14255|
-|1x20 2.54 Socket|2|£0.94|Pico-H Socket|https://cpc.farnell.com/multicomp/2212s-20sg-85/socket-pcb-1-row-20way/dp/CN14539|
+|1x20 2.54 Socket|2|£0.94|MCU Socket|https://cpc.farnell.com/multicomp/2212s-20sg-85/socket-pcb-1-row-20way/dp/CN14539|
 |1x8 2.54 Socket|8|£1.73|StepStick Socket|https://cpc.farnell.com/multicomp/2212s-08sg-85/socket-pcb-1-row-8way/dp/CN14534|
 |1x2 2.54 Socket|8|£0.76|Diag Pins Socket|https://cpc.farnell.com/multicomp/2212s-02sg-85/socket-pcb-1-row-2way/dp/CN14529|
 |1x20 2.54 Header|3|£0.60|Cut As Needed|https://cpc.farnell.com/multicomp/mc34739/header-1-row-vert-20way/dp/CN14497|
-|50v 470uF Capacitor|4|£2.60|Can use any 13mmø cap w/ 2.5-5mm pitch|https://cpc.farnell.com/panasonic/eca1hm471/capacitor-470uf-50v/dp/CA07273|
 |1k Resistor (THT)|1|£0.01|UART TX||
 |10k Resistor (THT)|4|£0.04|STEP Pin pulldown||
-|Automotive Mini-Blade Fuse Holder|1|£0.59|Takes ATO Fuses|https://cpc.farnell.com/unbranded/mccq-121/fuseholder-pcb-mount-ato/dp/FF02093|
-|Raspberry Pi Pico H|1|£4.85|Or compatible, IE [IceScrew+BlackPill](https://store.annex.engineering/products/icescrewbp)|https://cpc.farnell.com/raspberry-pi/raspberry-pi-pico-h/rpi-pico-rp2040-mcu-board-w-header/dp/SC19560|
+|Raspberry Pi Pico, or...|1|£1.99|MCU|https://www.aliexpress.com/item/1005003708090298.html|
+|STM32F401 BlackPill|1|£1.96|MCU|https://www.aliexpress.com/item/4001062944589.html|
 
-Total (Excluding PCB & Shipping): £13.94
+Total (Excluding PCB & Shipping): £10.54
 
 
 # LICENSE
