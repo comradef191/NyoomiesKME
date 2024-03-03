@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "Nyoomies KME V4 (Klipper Motor Expansion)")
-		(date "2024-02-26")
-		(rev "4.1")
+		(date "2024-03-03")
+		(rev "4.2")
 		(company "Pera @ https://transfur.science/f191")
 		(comment 1 "CERN OHL v2 - S")
 		(comment 3 "https://github.com/comradef191/NyoomiesKME")
