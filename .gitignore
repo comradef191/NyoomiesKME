@@ -31,3 +31,4 @@ fp-info-cache
 NyoomiesKME.round-tracks-config
 ~NyoomiesKME.kicad_sch.lck
 ~NyoomiesKME.kicad_pcb.lck
+gerber/*
