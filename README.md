@@ -24,12 +24,13 @@ Driver Configuration Jumpers:
 |2x4 2.54 Header|1|£0.46|STM32 I/O, Optional|https://www.lcsc.com/product-detail/Pin-Headers_Liansheng-PH-00530_C2685166.html|
 |2x3 2.54 Header|8|£0.75|Driver Jumper Pins|https://www.lcsc.com/product-detail/Pin-Headers_Liansheng-PH-01291_C2685197.html|
 |1x3 2.54 Header|4|£0.36|Driver Jumper Pins|https://www.lcsc.com/product-detail/Pin-Headers_Liansheng-PH-00014_C2685130.html|
+|2x 2.54 Jumper Cap|20|£0.32|Driver Jumper Pins|https://www.lcsc.com/product-detail/Shunts-Jumpers_Shenzhen-Kinghelm-Elec-KH-2-54TXM-H6-0-R_C5274534.html|
 |1k Resistor (THT)|1|£0.01|UART TX||
 |10k Resistor (THT)|4|£0.04|STEP Pin pulldown||
 |Raspberry Pi Pico, or...|1|£1.99|MCU|https://www.aliexpress.com/item/1005003708090298.html|
 |STM32F401 BlackPill|1|£1.96|MCU|https://www.aliexpress.com/item/4001062944589.html|
 
-Total (_Excluding PCB, MCU, & Shipping_): £6.94
+Total (_Excluding PCB, MCU, & Shipping_): £7.26
 
 
 # LICENSE
