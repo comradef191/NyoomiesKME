@@ -9,8 +9,8 @@
 	(paper "A5")
 	(title_block
 		(title "Nyoomies KME v4 (Klipper Motor Expansion)")
-		(date "2024-03-03")
-		(rev "4.2")
+		(date "2024-04-01")
+		(rev "4.3")
 		(company "Pera @ https://transfur.science/f191")
 		(comment 1 "CERN OHL v2 -S")
 		(comment 3 "https://github.com/comradef191/NyoomiesKME")
@@ -23453,7 +23453,7 @@
 			(justify left mirror)
 		)
 	)
-	(gr_text "REV. 4.2"
+	(gr_text "REV. 4.3"
 		(at 77.216 77.216 0)
 		(layer "B.SilkS")
 		(uuid "1582942c-34d0-4926-a046-bed015cc55a4")
@@ -25710,7 +25710,7 @@
 			)
 		)
 	)
-	(gr_text "Rev 4.2"
+	(gr_text "Rev 4.3"
 		(at 151.366966 65.1145 0)
 		(layer "F.SilkS")
 		(uuid "ffc01471-766f-454c-8c6c-df80f1e52beb")

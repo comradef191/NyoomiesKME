@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "Nyoomies KME V4 (Klipper Motor Expansion)")
-		(date "2024-03-03")
-		(rev "4.2")
+		(date "2024-04-01")
+		(rev "4.3")
 		(company "Pera @ https://transfur.science/f191")
 		(comment 1 "CERN OHL v2 - S")
 		(comment 3 "https://github.com/comradef191/NyoomiesKME")
@@ -2984,6 +2984,54 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc0adcb2-7d77-4280-80dc-7b21716774b1")
+	)
+	(no_connect
+		(at 140.97 17.78)
+		(uuid "03577dd2-57d1-4130-8f90-734f99402341")
+	)
+	(no_connect
+		(at 185.42 55.88)
+		(uuid "0c3bb3fc-f861-4418-96ad-165eb23a23c7")
+	)
+	(no_connect
+		(at 105.41 17.78)
+		(uuid "11ededf5-a6a3-42db-9bd1-92e275ec299d")
+	)
+	(no_connect
+		(at 43.18 116.84)
+		(uuid "153fca59-1b21-42e3-8a02-1604af6d438b")
+	)
+	(no_connect
+		(at 140.97 43.18)
+		(uuid "2cba9184-7afb-4ae2-ac58-fd0d3c69009c")
+	)
+	(no_connect
+		(at 165.1 38.1)
+		(uuid "631e2d58-316f-41eb-90e6-03ee239c5251")
+	)
+	(no_connect
+		(at 185.42 66.04)
+		(uuid "72353ffd-1f87-4f55-8cdd-ab3567e0f2fa")
+	)
+	(no_connect
+		(at 140.97 25.4)
+		(uuid "7deeee36-040c-4bc2-bf04-9e7ad9966a8c")
+	)
+	(no_connect
+		(at 165.1 60.96)
+		(uuid "7e46402d-0ee8-4702-8ab0-74d613c36548")
+	)
+	(no_connect
+		(at 165.1 35.56)
+		(uuid "8a740c2b-097f-4dbf-acef-c3fca41053a7")
+	)
+	(no_connect
+		(at 185.42 17.78)
+		(uuid "8aac3426-026f-4f3a-8772-d4539c058faf")
+	)
+	(no_connect
+		(at 140.97 20.32)
+		(uuid "bd5eeb45-e8ac-418c-b034-893b885648e9")
 	)
 	(wire
 		(pts
