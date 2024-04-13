@@ -618,7 +618,6 @@
 			)
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D12.5mm_P5.00mm.wrl"
-			(hide yes)
 			(offset
 				(xyz -2.5 0 0)
 			)
@@ -630,6 +629,7 @@
 			)
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P3.50mm.wrl"
+			(hide yes)
 			(offset
 				(xyz -2.5 0 0)
 			)
@@ -2127,6 +2127,7 @@
 			(uuid "e017e6d2-cf65-46e6-98c9-445240f0fa9c")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D12.5mm_P7.50mm.wrl"
+			(hide yes)
 			(offset
 				(xyz -2.5 0 0)
 			)
@@ -2138,7 +2139,6 @@
 			)
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D12.5mm_P5.00mm.wrl"
-			(hide yes)
 			(offset
 				(xyz -2.5 0 0)
 			)
@@ -2706,7 +2706,7 @@
 		(descr "Pololu Breakout 16-pin 15.2x20.3mm 0.6x0.8\\")
 		(tags "Pololu Breakout")
 		(property "Reference" "M4"
-			(at 8.89 -0.63 0)
+			(at 6.35 -0.0635 0)
 			(layer "F.SilkS")
 			(uuid "2107f836-776f-4448-b917-f01365449b8f")
 			(effects
@@ -2714,7 +2714,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
 		(property "Value" "TMC2209 Breakout"
@@ -5153,7 +5153,7 @@
 		(descr "Pololu Breakout 16-pin 15.2x20.3mm 0.6x0.8\\")
 		(tags "Pololu Breakout")
 		(property "Reference" "M1"
-			(at 8.89 -0.6285 0)
+			(at 6.35 -0.0635 0)
 			(layer "F.SilkS")
 			(uuid "bd0bc1b2-7704-4729-b087-47f29d4ad1b5")
 			(effects
@@ -5161,7 +5161,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify right top)
+				(justify left)
 			)
 		)
 		(property "Value" "TMC2209 Breakout"
@@ -7685,7 +7685,7 @@
 		(descr "Pololu Breakout 16-pin 15.2x20.3mm 0.6x0.8\\")
 		(tags "Pololu Breakout")
 		(property "Reference" "M3"
-			(at 8.89 -0.63 0)
+			(at 6.35 -0.0635 0)
 			(layer "F.SilkS")
 			(uuid "a62d5a63-f0d9-4d25-9d06-af8ab64d62b6")
 			(effects
@@ -7693,7 +7693,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
 		(property "Value" "TMC2209 Breakout"
@@ -14749,7 +14749,7 @@
 		(descr "Pololu Breakout 16-pin 15.2x20.3mm 0.6x0.8\\")
 		(tags "Pololu Breakout")
 		(property "Reference" "M2"
-			(at 8.89 -0.63 0)
+			(at 6.35 -0.0635 0)
 			(layer "F.SilkS")
 			(uuid "d2afbb70-7647-4fb1-b1e7-ed3fe7f301ce")
 			(effects
@@ -14757,7 +14757,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
 		(property "Value" "TMC2209 Breakout"
