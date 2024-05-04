@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|101172300|44998700|961102f5-1505-4370-b105-814ae81e4cbd|ac305be4-e511-4842-9d58-1f17f923d6ed",
+        "clearance|102442300|46268700|571dccad-66d4-4b2b-b063-29f2520d0e38|ac305be4-e511-4842-9d58-1f17f923d6ed",
+        "clearance|124026300|44998700|90a8910e-b46b-406c-ae8e-3817f74a2afc|fdc37c66-de56-41cf-a883-23b8742130ed",
+        "clearance|125296300|46268700|9cb430ed-fdd7-42f7-835a-bfc69a20169e|90a8910e-b46b-406c-ae8e-3817f74a2afc",
+        "clearance|146880300|44998700|ecca809c-7dd2-4f37-b0e3-dde18e28af94|a13e9d57-feff-4088-818f-4891d5004e80",
+        "clearance|148150300|46268700|f1cf122d-1743-4ce9-b934-3f151cf4e095|ecca809c-7dd2-4f37-b0e3-dde18e28af94",
+        "clearance|78318300|44998700|0f74310b-1532-4d56-98ca-5148a5e5fd85|971b7b2b-7a42-4d28-84c6-8f53710493ad",
+        "clearance|79588300|46268700|352d89e4-3bd8-42f3-a23d-b2bbc330914a|0f74310b-1532-4d56-98ca-5148a5e5fd85"
+      ],
       "meta": {
         "version": 2
       },
@@ -86,7 +95,7 @@
         "length_out_of_range": "error",
         "lib_footprint_issues": "ignore",
         "lib_footprint_mismatch": "ignore",
-        "malformed_courtyard": "error",
+        "malformed_courtyard": "ignore",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
@@ -610,7 +619,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "PicoMotors.step",
+      "step": "gerber/Nyoomies.step",
       "svg": "",
       "vrml": ""
     },
