@@ -17,7 +17,7 @@ Contact me on Discord if you want to add yourself to this list!
 |Component|No. Needed|Cost (Total)|Comment|Sourcing URL|
 |---------|----------|------------|-------|-------|
 |5.08mm Screw Terminal|1|£0.68|Power Input|https://www.lcsc.com/product-detail/Screw-span-style-background-color-ff0-terminal-span_MAX-MX129-5-08-02P-GN01-Cu-Y-A_C5188485.html|
-|Automotive Mini-Blade Fuse Holder|1|£0.99|Takes ATO Fuses|https://aliexpress.com/item/4000541087990.html|
+|Automotive Mini-Blade Fuse Holder|1|£0.34|Takes ATO Fuses|https://www.lcsc.com/product-detail/Fuse-Holders_XFCN-XF-506P_C492610.html|
 |63v 470uF Capacitor|4|£1.95|_Can substitue with up to 17mmø diameter cap w/ up to 7.5mm pitch_|https://www.lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-Leaded_PANASONIC-ECA1JM471_C5362346.html|
 |1x4 Molex MF3 Connector|4|£0.60|Motor Connectors, (Pick One)|https://www.lcsc.com/product-detail/Wire-To-Board-Connector_HCTL-HC-MX3-0-4A_C5441109.html|
 |1x4 JST-XH Connector|4|£0.45|Motor Connectors, (Pick One)|https://www.lcsc.com/product-detail/Wire-To-Board-Connector_SHOU-HAN-2-54mm-4P-ZZ_C5368777.html|
@@ -32,9 +32,9 @@ Contact me on Discord if you want to add yourself to this list!
 |1k Resistor (THT)|1|£0.01|UART TX||
 |10k Resistor (THT)|4|£0.04|STEP Pin pulldown||
 |Raspberry Pi Pico, or...|1|£2|MCU (Pick one)|https://www.aliexpress.com/item/1005003708090298.html|
-|STM32F401 BlackPill|1|£2|MCU (Pick one)|https://www.aliexpress.com/item/1005006127461676.html|
+|STM32F401 BlackPill|1|£2.3|MCU (Pick one)|https://www.aliexpress.com/item/1005006127461676.html|
 
-Total (_Excluding PCB, MCU, & Shipping_): ~£8
+Total (_Excluding PCB, Tax Shipping, Ect_): ~£9.8 ($12.3 USD)
 
 ### Driver Configuration Jumpers:
 ![DriverJumpers](DriverJumpers_v5.png)
