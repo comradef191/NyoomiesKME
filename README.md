@@ -1,5 +1,5 @@
 # NyoomiesKME
-A Pico or BlackPill powered expansion board for Klipper, with support for four motors running in SPI or UART, and ability to run higher currents than most mainboards.
+A [Raspberri Pi Pico][] or [BlackPill][] powered expansion board for Klipper, with support for four motors running in SPI or UART, and ability to run higher currents than most mainboards.
 
 - Supports sensorless homing or standard endstops, and sensorless homing when using BigTreeTech EZDriver adapters
 - Designed with TMC-based Stepsticks in mind, featuring full support for a mix of SPI and UART drivers on one board along with the ability to install either JST-XH or MF3 connectors for your motors
@@ -55,3 +55,6 @@ This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF
 Source location: https://github.com/comradef191/NyoomiesKME
 
 As per CERN-OHL-S v2 section 4, should You produce hardware based on this source, You must where practicable maintain the Source Location visible on the PCB.
+
+[Raspberri Pi Pico]: https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html 
+[BlackPill]: https://github.com/WeActStudio/WeActStudio.BlackPill
